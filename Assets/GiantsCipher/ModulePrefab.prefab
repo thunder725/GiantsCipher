@@ -1055,6 +1055,7 @@ GameObject:
   - component: {fileID: 114497678476821442}
   - component: {fileID: 114766087948012328}
   - component: {fileID: 114208841272621400}
+  - component: {fileID: 114141883650366764}
   - component: {fileID: 114696624720405076}
   - component: {fileID: 114831186812261770}
   m_Layer: 0
@@ -6421,6 +6422,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighlightScale: {x: 1, y: 1, z: 1}
   OutlineAmount: 0
+--- !u!114 &114141883650366764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589639358081898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf69c2de51bd3c43bbd9bc22578ee08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _seed: 78
 --- !u!114 &114147070991727742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7201,7 +7214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d7ec5ddab28574998b76c28f589748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombInfos: {fileID: 114497678476821442}
+  bombInfo: {fileID: 114497678476821442}
+  ruleseedManager: {fileID: 114141883650366764}
   thisBombModule: {fileID: 114208841272621400}
   audioSystem: {fileID: 114766087948012328}
   keywordTextMesh: {fileID: 102398552718229416}
